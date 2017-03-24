@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        app:srcCompat="@drawable/logo_amendoeira"
+        android:layout_marginTop="42dp"
+        android:id="@+id/imgLogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:text="Amendoeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/txtNome"
+        android:textSize="24sp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescricao"
+        android:textSize="14sp"
+        android:text="Desde a sua fundação, em novembro de 1994, na cidade de São Luís, o Restaurante Cabana do Sol tem a sua história focada no respeito ao cliente e amor pelo que faz."
+        android:layout_width="300dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtNome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEndereco"
+        android:textSize="16sp"
+        android:text="Endereço: "
+        android:layout_width="300dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/txtDescricao"
+        android:layout_alignLeft="@+id/txtDescricao"
+        android:layout_alignStart="@+id/txtDescricao"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Contato: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEndereco"
+        android:layout_alignLeft="@+id/txtEndereco"
+        android:layout_alignStart="@+id/txtEndereco"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txtContato"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+</RelativeLayout>

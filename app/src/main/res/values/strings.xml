@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pede Fácil</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_search">Buscar</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+    <string name="one">Fragmento 1</string>
+    <string name="two">Fragmento 2</string>
+    <string name="three">Fragmento 3</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Amigos</string>
+    <string name="nav_item_feedback">Feedback</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_feedback</item>
+    </string-array>
+
+    <string name="title_feedback">Feedback</string>
+    <string name="title_friends">Amigos</string>
+    <string name="title_home">Home</string>
+
+</resources>
